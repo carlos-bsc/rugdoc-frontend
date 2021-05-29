@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Flex, HelpIcon, IconButton } from '@pancakeswap/uikit'
+import { Flex, HelpIcon, IconButton } from '@rugdoc/uikit'
 import FlexRow from './FlexRow'
 import { PricePairLabel, TimerLabel } from './Label'
 import PrevNextNav from './PrevNextNav'
@@ -60,7 +60,7 @@ const Menu = () => {
             <IconButton
               variant="subtle"
               as="a"
-              href="https://docs.pancakeswap.finance/products/prediction"
+              href="https://docs.rugdoc.io/products/prediction"
               target="_blank"
               rel="noreferrer noopener"
             >

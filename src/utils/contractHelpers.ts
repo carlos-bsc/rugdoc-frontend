@@ -26,8 +26,8 @@ import {
 } from 'utils/addressHelpers'
 
 // ABI
-import profileABI from 'config/abi/pancakeProfile.json'
-import pancakeRabbitsAbi from 'config/abi/pancakeRabbits.json'
+import profileABI from 'config/abi/rugdocProfile.json'
+import rugdocRabbitsAbi from 'config/abi/rugdocRabbits.json'
 import bunnyFactoryAbi from 'config/abi/bunnyFactory.json'
 import bunnySpecialAbi from 'config/abi/bunnySpecial.json'
 import bep20Abi from 'config/abi/erc20.json'
@@ -90,7 +90,7 @@ export const getProfileContract = (web3?: Web3) => {
   return getContract(profileABI, getPancakeProfileAddress(), web3)
 }
 export const getPancakeRabbitContract = (web3?: Web3) => {
-  return getContract(pancakeRabbitsAbi, getPancakeRabbitsAddress(), web3)
+  return getContract(rugdocRabbitsAbi, getPancakeRabbitsAddress(), web3)
 }
 export const getBunnyFactoryContract = (web3?: Web3) => {
   return getContract(bunnyFactoryAbi, getBunnyFactoryAddress(), web3)

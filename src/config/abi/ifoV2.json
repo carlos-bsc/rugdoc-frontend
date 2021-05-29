@@ -13,7 +13,7 @@
       },
       {
         "internalType": "address",
-        "name": "_pancakeProfileAddress",
+        "name": "_rugdocProfileAddress",
         "type": "address"
       },
       {
@@ -283,7 +283,7 @@
   },
   {
     "inputs": [],
-    "name": "pancakeProfile",
+    "name": "rugdocProfile",
     "outputs": [
       {
         "internalType": "contract PancakeProfile",

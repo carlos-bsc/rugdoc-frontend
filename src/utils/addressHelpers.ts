@@ -30,10 +30,10 @@ export const getLotteryV2Address = () => {
   return getAddress(addresses.lotteryV2)
 }
 export const getPancakeProfileAddress = () => {
-  return getAddress(addresses.pancakeProfile)
+  return getAddress(addresses.rugdocProfile)
 }
 export const getPancakeRabbitsAddress = () => {
-  return getAddress(addresses.pancakeRabbits)
+  return getAddress(addresses.rugdocRabbits)
 }
 export const getBunnyFactoryAddress = () => {
   return getAddress(addresses.bunnyFactory)

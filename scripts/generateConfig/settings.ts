@@ -1,6 +1,6 @@
 import { SettingsObject, SettingsType } from './types'
 
-const BASE_URL = 'https://pancake-config-api-chefkai.pancakeswap.vercel.app'
+const BASE_URL = 'https://rugdoc-config-api-chefkai.rugdoc.vercel.app'
 const settings: SettingsObject[] = [
   {
     name: 'ifos',

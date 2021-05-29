@@ -1,5 +1,5 @@
 import React from 'react'
-import { Heading, Text, Flex, ChevronRightIcon } from '@pancakeswap/uikit'
+import { Heading, Text, Flex, ChevronRightIcon } from '@rugdoc/uikit'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'contexts/Localization'
 import { useGetCollectibles } from 'state/hooks'
@@ -37,7 +37,7 @@ const Collectibles = () => {
         {t('Pancake Collectibles')}
       </Heading>
       <Text as="p">
-        {t('Pancake Collectibles are special ERC-721 NFTs that can be used on the PancakeSwap platform.')}
+        {t('Pancake Collectibles are special ERC-721 NFTs that can be used on the RugDoc platform.')}
       </Text>
       <Text as="p">
         {t('NFTs in this user’s wallet that aren’t approved Pancake Collectibles won’t be shown here.')}

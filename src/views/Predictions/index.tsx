@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import { useWeb3React } from '@web3-react/core'
 import { Helmet } from 'react-helmet-async'
-import { useMatchBreakpoints, useModal } from '@pancakeswap/uikit'
+import { useMatchBreakpoints, useModal } from '@rugdoc/uikit'
 import { useAppDispatch } from 'state'
 import { useGetPredictionsStatus, useInitialBlock, useIsChartPaneOpen } from 'state/hooks'
 import {
@@ -29,8 +29,8 @@ const FUTURE_ROUND_COUNT = 2 // the number of rounds in the future to show
 
 const Predictions = () => {
   const { isXl } = useMatchBreakpoints()
-  const [hasAcceptedRisk, setHasAcceptedRisk] = usePersistState(false, 'pancake_predictions_accepted_risk')
-  const [hasAcceptedChart, setHasAcceptedChart] = usePersistState(false, 'pancake_predictions_chart')
+  const [hasAcceptedRisk, setHasAcceptedRisk] = usePersistState(false, 'rugdoc_predictions_accepted_risk')
+  const [hasAcceptedChart, setHasAcceptedChart] = usePersistState(false, 'rugdoc_predictions_chart')
   const { account } = useWeb3React()
   const status = useGetPredictionsStatus()
   const isChartPaneOpen = useIsChartPaneOpen()

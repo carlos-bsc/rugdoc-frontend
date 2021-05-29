@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Heading, Text, LinkExternal } from '@pancakeswap/uikit'
+import { Heading, Text, LinkExternal } from '@rugdoc/uikit'
 import { useTranslation } from 'contexts/Localization'
 import Container from 'components/layout/Container'
 
@@ -89,7 +89,7 @@ const Hero = () => {
             bold
             mt={20}
             external
-            href="https://voting.pancakeswap.finance/#/pancake/proposal/QmU8pcbmBrfbfVQXMMxmkExDq3mYq4s5cbBuFe6uCZzdmX"
+            href="https://voting.rugdoc.io/#/rugdoc/proposal/QmU8pcbmBrfbfVQXMMxmkExDq3mYq4s5cbBuFe6uCZzdmX"
           >
             {t('Learn more')}
           </LinkExternal>
